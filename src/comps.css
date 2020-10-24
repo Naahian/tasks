@@ -1,0 +1,47 @@
+.Title{display: flex}
+.Title input{ border: 0; 
+    border-bottom:1px solid; 
+    background-color: #eeeeee00;
+    font-size:22px; 
+    width: auto;
+    height: 40px;
+}
+.Title input:focus{outline: none;}
+.Title img{margin: 8px;cursor: pointer;}
+.Title img:hover{opacity: .8;}
+.Title button{margin:6px}
+
+
+
+.Task div{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.Task p{margin: 0 5px;}
+.Task img{cursor: pointer;}
+
+
+.Card{
+    background-color: #f8faff;
+    display: block;
+    width: 320px;
+    min-height:150px;
+    box-shadow: 0 0 15px #22222244;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+.Card:hover{box-shadow: 0 0 15px #22222288;}
+.Card .Btn:hover{box-shadow: 0 0  5px #111111aa;}
+
+.Card span{cursor: pointer;color:#004cff;font-weight: bold;} 
+.Card span:hover{text-decoration: underline;}
+.deleteCard{position: relative;
+    left: 300px;top:-35px; 
+    box-shadow: 0 0 5px #11111155;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.deleteCard:hover{box-shadow: 0 0 0 2px #0080ffaa;}

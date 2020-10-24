@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{ 
+  width: 1100px;
   display: flex;
+  height: 100%;
   flex-direction: column;
+  padding: 2%;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.App .cardContain{
+  display:flex;
+  flex-wrap:wrap;
+  width:1020px;
+  align-items:flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+
+.Btn {
+  border-radius: 5px;
+  min-width: 65px;
+  height: 45px; 
+  margin:5px;
+
+  padding: 0 15px;
+}
+.sm{min-width: 30px;
+  height: 32px;
+  margin: 2px;
+  padding: 0 5px;
+}
+.Btn:active{transition: .1s ease all;}
+
+.Btn:focus{outline: none;}
+
+
+
+.c1{  background-color:#00509d;color: #caf0f8;border:0;box-shadow: 0 1px 4px #11111166;}
+.c1:active{  background-color: #003f88;border:0;box-shadow: 0 0 3px#1a1a1a44;}
+
+.c2{  background-color: #00d80b;color: #111;border:1px solid #00d80b;box-shadow: 0 1px 4px #11111166;}
+.c2:active{  background-color: #00d80b;box-shadow: 0 0 0 3px#11111166;}
+
+.c3{  background-color: #e22b2b;color: #eee;border:1px solid #e22b2b;box-shadow: 0 1px 4px #11111166;}
+.c3:active{  background-color: #e22b2b;box-shadow: 0  0 3px#11111166;}
+
+.c4{  background-color: #e7e7e7;color: #222;border:1px solid #d8d8d8;box-shadow: 0 1px 4px #11111166;}
+.c4:active{  background-color: #e7e7e7;box-shadow: 0 0  3px#11111166;}
+
+.c5{  background-color:#007bff;color: #eee;border:1px solid #007bff;box-shadow: 0 1px 4px #11111166;}
+.c5:active{  background-color: #007bff;box-shadow: 0 0  3px#11111166;}
+
+
+.section{
+  width: 1000px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #11111144;
+  margin: 0 10px;
+  background-color: #212733;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.inputForm{
+  width: 1000px;
+  background-color: #14141eaa;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content:space-between;
+}
+.inputForm .Btn:hover{box-shadow: 0 0 0 3px #007bff44;}
+
+.inputForm h1{
+  color: White;
+  float: right; 
+  width: 12%;
+  font-family: ubuntu;
+  font-weight: bold;
+  text-shadow: 0 0 10px #111;
 }
