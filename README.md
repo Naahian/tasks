@@ -1,3 +1,3 @@
 # tasks
 A task organizer made in react js.\
-view in githubpage: https://github.com/Naahian/tasks
+view in githubpage: https://naahian.github.io/tasks/
